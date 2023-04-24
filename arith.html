@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arithmetic Operator </title>
+    <style>
+        body{
+            background-image: url("bg.jpg");
+        }
+        h2{
+            color: red;
+        }
+        p{
+            color: white;
+        }
+        .in{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Arithmetic Operator</h2>
+    <p id="add"></p>
+    <p id="sub"></p>
+    <p id="div"></p>
+    <p id="mul"></p>
+<div class="in">
+    Enter any Number1: <input type="number" id="myText1"><br>
+    Enter any Number2: <input type="number" id="myText2"></div>
+    <br><br>
+    <button onclick="add()">ADDTION</button>
+    <button onclick="sub()">SUBTRACTION</button>
+    <button onclick="mul()">MULTIPLICATION</button>
+    <button onclick="div()">DIVISION</button>
+
+    <p id="demo"></p>
+
+    <script>
+        function add() {
+            var x = document.getElementById("myText1").value;
+            var y = document.getElementById("myText2").value;
+            var x = parseInt(x);
+            var y = parseInt(y);
+            document.getElementById("demo").innerHTML = "Addition of two Number: "+(x + y);
+        }
+
+        function sub() {
+            var x = document.getElementById("myText1").value;
+            var y = document.getElementById("myText2").value;
+            var x = parseInt(x);
+            var y = parseInt(y);
+            document.getElementById("demo").innerHTML = "Subtraction of two Number: "+(x - y);
+        }
+        function mul() {
+            var x = document.getElementById("myText1").value;
+            var y = document.getElementById("myText2").value;
+            var x = parseInt(x);
+            var y = parseInt(y);
+            document.getElementById("demo").innerHTML = "Multiple of two Number: "+(x * y);
+        }
+        function div() {
+            var x = document.getElementById("myText1").value;
+            var y = document.getElementById("myText2").value;
+            var x = parseInt(x);
+            var y = parseInt(y);
+            document.getElementById("demo").innerHTML = "Division of two Number: "+(x / y);
+        }
+
+    </script>
+
+</body>
+
+</html>

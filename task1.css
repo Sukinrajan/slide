@@ -1,0 +1,167 @@
+body {
+font-family: 'Times New Roman', Times, serif;
+background-image: url("bg.jpg");
+background-repeat: no-repeat;
+background-size: auto;
+}
+header{
+    padding-top: 40px;
+    height: 100px;
+    color:red;
+text-align:center;
+border: 100px;
+border-radius: 100px;
+border-color: black;
+}
+h3{
+    color: red;
+    background-color: black;
+    width: 22.5%;
+}
+nav{
+    float: right;
+}
+.top{
+    background-color: black;
+    padding: 10px;
+}
+a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+a:hover{
+    background-color: white;
+    color: red;
+}
+#img:hover{
+    border: 5px solid blue;
+}
+.html{
+    float:right;
+    width:75%;
+    height:150px;
+    color: white;
+    text-align: justify;
+    }
+.imgcss{
+    float:right;
+    width:35%;
+    }
+.css{
+    width: 60%;
+    text-align: justify;
+    color: white;
+    }
+.js{
+    float:right;
+    width:75%;
+    height:150px;
+    color: white;
+    text-align: justify;
+    }
+iframe{
+    padding-left: 50%;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    }
+pre{
+        color: red;
+        height: 250px;
+        padding-top: 20px;
+        border-radius: 80px;
+        font-size: 15px;
+    }
+i{
+    color: white;
+}
+p{
+    padding-left: 5px;
+}
+
+
+ .slider{
+            width: 800px;
+            height: 300px;
+            border-radius: 10px;
+            overflow: hidden;
+            justify-content: center;
+            margin-left: 300px;
+        }
+        .slides{
+            width: 500%;
+            height: 300px;
+            display: flex;
+        }
+         .slides input{
+            display: none;
+        }
+        .img{
+            width: 800px;
+            height: 300px;
+            transition: 2s;
+        }
+        .manual{
+            position: absolute;
+            width: 800px;
+            margin-top: -40px;
+            display: flex;
+            justify-content: center;
+        }
+        .manuals{
+            border: 2px solid black;
+            padding: 5px;
+            border-radius: 10px;
+            cursor: pointer; 
+        }
+        .manuals:not(:last-child){
+            margin-right: 40px;
+        }
+        .manuals:hover{
+            background-color: red;
+        }
+        #rd1:checked~.first{
+            margin-left: 0;
+        }
+        #rd2:checked~.first{
+            margin-left: -20%;
+        }
+        #rd3:checked~.first{
+            margin-left: -40%;
+        }
+
+
+
+        .auto{
+            position: absolute;
+            width: 800px;
+            margin-top: 260px;
+            display: flex;
+            justify-content: center;
+        }
+        .auto div{
+            border: 2px solid black;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        .auto div:not(:last-child){
+            margin-right: 40px;
+        }
+        #rd1:checked~.auto .auto1{
+            background-color: yellow;
+            
+        }
+        #rd2:checked~.auto .auto2{
+            background-color: yellow;
+            
+        }
+        #rd3:checked~.auto .auto3{
+            background-color: yellow;
+            
+        }
+
+
+
+  
